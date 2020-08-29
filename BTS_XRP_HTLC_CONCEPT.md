@@ -1,6 +1,6 @@
 ![](https://github.com/ioBanker/DOCUMENTS/blob/master/htlc_sections.png)
 
-## Summery:
+## Introduction:
 
 Atomic Swap Page will connect to both, BitShares and XRP networks using browser based UI client through Public (WebSocket Secure) protocol.
 

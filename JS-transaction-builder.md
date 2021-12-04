@@ -24,7 +24,9 @@ npm install
 
 ## Creating BitShares NodeJS script file (transaction.js):
 
-The below example can be tuned to execute any transaction over BitShares, you will just need to replace parameters under *params* and operation name *asset_update* to your desired transaction.
+The below example can be tuned to execute any transaction over BitShares, you will just need to replace parameters under *params* and operation name *asset_update* for your desired transaction entry.
+
+Use the below links to determine your needed operation name and parameters structure:
 
 [bitshares-core supported operation names](https://github.com/bitshares/bitshares-core/blob/master/libraries/protocol/include/graphene/protocol/operations.hpp)
 

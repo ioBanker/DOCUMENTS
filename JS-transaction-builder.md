@@ -64,9 +64,9 @@ let params = {
     }
 }
 
-let tx = acc.newTx()
-tx.asset_update(params)
-await tx.broadcast()
+let tx = acc.newTx();
+tx.asset_update(params); # Replace asset_update with your desired operation name
+await tx.broadcast();
 console.log(tx);
 }
 ```

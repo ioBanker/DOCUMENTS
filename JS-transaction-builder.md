@@ -46,7 +46,7 @@ let acc = await new BitShares("username", "password"); # replace with your usern
 
 # Below are required parameters and structure for the example of operation *asset_update*; every different operation would required different parameters and structure
 
-# Finding what to use in these parameters would require understanding of how BitShares Blockchain is reading the objects, for example *issuer* is referred to the ID *1.2.1787259* of owner account of an Asset, use telegram [BitShares Development](https://t.me/BitSharesDEV) group to ask about required parameters.
+# Finding what data to use in these parameters would require understanding of how BitShares Blockchain works, for example *issuer* is referred to the ID *1.2.1787259* of owner account of an Asset, use telegram [BitShares Development](https://t.me/BitSharesDEV) group to ask about required parameters.
 
 let params = {
     fee: {amount: 0, asset_id: "1.3.0"},

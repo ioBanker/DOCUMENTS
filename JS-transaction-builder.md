@@ -24,7 +24,7 @@ npm install
 
 ## Creating BitShares NodeJS script file (transaction.js):
 
-The below example can be tuned to execute any transaction over BitShares Blockchain using API node hence you can use any BitShares Public API node, you will just need to replace parameters under *params* and the operation name *asset_update* in below example with your desired transaction parameters and its operation name.
+The below example can be used to broadcast any transaction to the BitShares Blockchain using API node hence you can use any BitShares Public API node, you will just need to replace parameters under *params* and the operation name *asset_update* in below example with your desired transaction parameters and its operation name.
 
 Use the below links to determine your desired operation name and needed parameters along with their required order:
 

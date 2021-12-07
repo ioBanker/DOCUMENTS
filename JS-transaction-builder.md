@@ -1,6 +1,6 @@
 # BitShares NodeJS Transaction Builder
 
-Each private transaction is considered accepted after being included in the block. Blocks are created every 3 seconds. If we need to perform several operations, their sequential execution can take considerable time. Fortunately, several operations can be included in a single transaction. For this you need to use transaction builder.
+Interaction with the blockchain happens by broadcasting transactions to the nodes. A transaction is usually built and signed locally and then broadcast. It is considered accepted after being included in a block and finalized after its block becomes irreversible. A transaction can contain several operations (tranfer, limit order, etc..), this allows to execute several actions on the blockchain in an atomic fashion (one fails all fail) and without the need to sign each one separately (beneficial for performance). For this you may use the transaction builder.
 
 ## Installaing NodeJS on Ubuntu or OSX (In case you don't have it):
 
